@@ -12,6 +12,7 @@ public class ConfigClientContrllor {
 	@GetMapping("/profile")
 	public String getProfile() {
 		return profile;
+		
 	}
 
 }
