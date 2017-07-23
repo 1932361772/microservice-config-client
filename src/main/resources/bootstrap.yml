@@ -4,12 +4,13 @@ server:
   
 spring:
   application:
-    name: foobar #这个参数放在application.yml中也可,但建议放在这里.
+    name: foobar #这个参数放在application.yml中也可,但建议放在这里.可以用eureka.instance.appname顶替.
   cloud:
     config:
       uri: http://localhost:8080
-      profile: dev
+      profile: production
       label: master
+
 
 
 
